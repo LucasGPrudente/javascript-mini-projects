@@ -10,3 +10,7 @@ The stopwatch is used to time something, like a race. The display shows the curr
 - CSS
 
 ##
+
+### Preview
+
+![image](https://github.com/user-attachments/assets/025c134e-c994-4989-96d5-ec3a67319504)
