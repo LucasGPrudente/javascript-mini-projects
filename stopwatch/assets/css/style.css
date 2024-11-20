@@ -1,0 +1,95 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffe5f0;
+  display: grid;
+  place-content: center;
+}
+
+/* div and align */
+
+#stopwatch {
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+#display {
+  height: 340px;
+  width: 340px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #e3b1c8;
+  border-radius: 170px;
+}
+
+#actions {
+  width: 310px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* button */
+
+.button {
+  width: 80px;
+  height: 80px;
+  background-color: #d3d3d3;
+  color: #1f1f1f;
+  display: grid;
+  place-content: center;
+  border: none;
+  border-radius: 40px;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.button:hover {
+  color: #ffffff;
+}
+
+#button-start:hover{
+  background-color: #5dc460;
+}
+
+#button-stop:hover{
+  background-color: #e2504c;
+}
+
+#button-reset:hover{
+  background-color: #6a9eda;
+}
+
+/* font and text */
+
+#display {
+  font-family: "Roboto Mono", monospace;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+/* icon */
+
+.button-icon {
+  font-size: 30px;
+}
