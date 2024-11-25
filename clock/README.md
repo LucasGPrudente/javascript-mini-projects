@@ -5,6 +5,7 @@ Simple digital clock. Gets time and date through the Date object.
 ```javascript
 let date = new Date();
 ```
+
 ##
 
 ### Technologies
@@ -12,6 +13,7 @@ let date = new Date();
 - JavaScript
 - HTML
 - CSS
+
 ##
 
 ### Preview
