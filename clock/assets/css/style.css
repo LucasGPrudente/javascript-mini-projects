@@ -53,6 +53,7 @@ body {
 
 .time-digit, .time-name, .colon {
   font-family: "Poppins", sans-serif;
+  font-style: normal;
   color: #fff;
   font-weight: 400;
 }
@@ -71,6 +72,7 @@ body {
 
 #date {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   color: #fff;
   font-size: 20px;
   font-weight: 400;

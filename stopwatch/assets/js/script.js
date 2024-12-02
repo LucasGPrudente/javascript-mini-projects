@@ -1,12 +1,12 @@
 // button
-let buttonStart = document.getElementById("button-start");
-let buttonStop = document.getElementById("button-stop");
+const buttonStart = document.getElementById("button-start");
+const buttonStop = document.getElementById("button-stop");
 
 // span
-let hourText = document.getElementById("hour-digits");
-let minuteText = document.getElementById("minute-digits");
-let secondText = document.getElementById("second-digits");
-let millisecondText = document.getElementById("millisecond-digits");
+const hourText = document.getElementById("hour-digits");
+const minuteText = document.getElementById("minute-digits");
+const secondText = document.getElementById("second-digits");
+const millisecondText = document.getElementById("millisecond-digits");
 
 // interval
 let interval;
@@ -42,7 +42,7 @@ function stop() {
   buttonStop.style.display = "none";
 }
 
-// counts milliseconds. When reaching 99, millisecond == 0 and call countSeconds()
+// counts milliseconds. When reaching 99, set millisecond to 0 and call countSeconds()
 function countMilliseconds() {
   let millisecond = parseInt(millisecondText.innerText);
 
@@ -57,7 +57,7 @@ function countMilliseconds() {
   millisecondText.innerText = (millisecond < 10) ? "0" + millisecond : millisecond;
 }
 
-// counts seconds. When reaching 59, second == 0 and call countMinutes()
+// counts seconds. When reaching 59, set second to 0 and call countMinutes()
 function countSeconds() {
   let second = parseInt(secondText.innerText);
 
@@ -72,7 +72,7 @@ function countSeconds() {
   secondText.innerText = (second < 10) ? "0" + second : second;
 }
 
-// counts minutes. When reaching 59, minute == 0 and call countHours()
+// counts minutes. When reaching 59, set minute to 0 and call countHours()
 function countMinutes() {
   let minute = parseInt(minuteText.innerText);
 

@@ -1,10 +1,10 @@
 // input
-let inputBinary = document.getElementById("binary-input");
-let inputDecimal = document.getElementById("decimal-input");
+const inputBinary = document.getElementById("binary-input");
+const inputDecimal = document.getElementById("decimal-input");
 
 // div
-let infoBinary = document.getElementById("info-binary");
-let infoDecimal = document.getElementById("info-decimal");
+const infoBinary = document.getElementById("info-binary");
+const infoDecimal = document.getElementById("info-decimal");
 
 infoBinary.style.display = "none";
 infoDecimal.style.display = "none";

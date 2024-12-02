@@ -1,9 +1,9 @@
-// increment number in 1
+// increment current number in 1
 function increment(){
   number.innerText = parseInt(number.innerText) + 1;
 }
 
-// decrement number in 1
+// decrement current number in 1
 function decrement(){
   number.innerText = parseInt(number.innerText) - 1;
 }

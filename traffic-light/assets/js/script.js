@@ -1,10 +1,10 @@
 // light
-let greenLight = document.getElementById("green-light");
-let yellowLight = document.getElementById("yellow-light");
-let redLight = document.getElementById("red-light");
+const greenLight = document.getElementById("green-light");
+const yellowLight = document.getElementById("yellow-light");
+const redLight = document.getElementById("red-light");
 
 // timer
-let timer = document.getElementById("timer");
+const timer = document.getElementById("timer");
 
 // turn off all the lights
 greenLight.classList.add("green-off");
