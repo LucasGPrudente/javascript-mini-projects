@@ -1,0 +1,139 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+/* body */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffd393;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+/* div and align */
+
+#container {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+#form-info {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 30px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: #ff6961;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+#input-box {
+  position: relative;
+}
+
+/* input */
+
+input {
+  width: 550px;
+  height: 50px;
+  border: solid 1px #2e2e2e;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.input-error {
+  border: solid 2px #ff6961;
+}
+
+.input-name-error {
+  color: #ff6961 !important;
+}
+
+#username-error, #password-error, #email-error {
+  display: none;
+}
+
+/* button */
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+#button-submit {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background-color: #ff8d21;
+  font-size: 15px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#button-submit:hover {
+  background-color: #ff7b00;
+}
+
+#button-visibility {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: grid;
+  place-content: center;
+  border: none;
+  background-color: transparent;
+}
+
+/* font and text */
+
+#input-name-username, #input-name-password, #input-name-email {
+  background-color: #fff;
+  padding: 0 8px;
+  position: absolute;
+  left: 10px;
+  bottom: 40px;
+  font-size: 15px;
+  color: #2e2e2e;
+}
+
+/* icon */
+
+.error-icon {
+  font-size: 20px !important;
+  margin-right: 5px;
+  color: #ff6961;
+}
+
+.visibility-icon {
+  font-size: 20px !important;
+  color: #2e2e2e;
+}
+
+#visibility-on-icon{
+  display: none;
+}
