@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title> Border-radius Previewer </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+  </head>
+
+  <body>
+    <div id="content">
+      <div id="flip-container">
+        <div class="input-container">
+          <input type="number" class="input-border-radius" id="top-left-input" value="0">
+          <input type="number" class="input-border-radius" id="bottom-left-input" value="0">
+        </div>
+        <div id="test-box"></div>
+        <div class="input-container">
+          <input type="number" class="input-border-radius" id="top-right-input" value="0">
+          <input type="number" class="input-border-radius" id="bottom-right-input" value="0">
+        </div>
+      </div>
+      <div id="action-container">
+        <button class="action" onclick="resetInputs()">
+          <span class="material-symbols-outlined button-icon"> restart_alt </span>
+        </button>
+        <button class="action" onclick="copyInput()" style="margin-top: 10px;">
+          <span class="material-symbols-outlined button-icon"> content_copy </span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
