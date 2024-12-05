@@ -9,6 +9,8 @@ You can edit the border radius value of each corner of the element:
 - Bottom Left
 - Bottom Right
 
+Using the buttons, you can reset the value of all corners to zero and copy the CSS value of the border-radius to the clipboard.
+
 ##
 
 ### Technologies
@@ -18,3 +20,7 @@ You can edit the border radius value of each corner of the element:
 - CSS
 
 ##
+
+### Preview
+
+![image](https://github.com/user-attachments/assets/64d2a5a3-bf17-408d-8f75-3b259fa94071)
