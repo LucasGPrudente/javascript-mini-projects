@@ -1,0 +1,159 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #2C2B30;
+  display: grid;
+  place-content: center;
+  align-items: end;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+}
+
+/* div and align */
+
+#modifier-keys-container {
+  display: grid;
+  align-items: end;
+  row-gap: 5px;
+  border-radius: 10px;
+}
+
+#key-value-container {
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #FFF;
+}
+
+#modifier-state {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5px;
+  place-content: center;
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 15px 0;
+}
+
+#state-false, #state-true {
+  width: 60px;
+  height: 25px;
+  display: grid;
+  place-content: center;
+  border-radius: 5px;
+}
+
+#modifier-keys {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 10px;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+.modifier-key-pressed {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#key-container {
+  width: 200px;
+  height: 200px;
+  background-color: #D6D6D6;
+  border-radius: 5px;
+  display: grid;
+  place-content: center;
+}
+
+#binary-container {
+  width: 200px;
+  height: 30px;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5px;
+}
+
+#binary-text {
+  width: 165px;
+  height: 30px;
+  background-color: #D6D6D6;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+/* button */
+
+#copy-button {
+  width: 30px;
+  height: 30px;
+  background-color: #4F4F51;
+  border-radius: 5px;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* font */
+
+#modifier-keys-container {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+#key-text {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+#binary-text {
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-size: 16px;
+}
+
+#state-false, #state-true {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* icon */
+
+#copy-icon {
+  font-size: 17px !important;
+  color: #fff;
+}
+
+/* temporary attributes */
+
+#state-false {
+  background-color: #FF746C;
+}
+
+#state-true {
+  background-color: #89E894;
+  display: none;
+}
+
+.pressed-modifier-key {
+  background-color: #D6D6D6;
+}

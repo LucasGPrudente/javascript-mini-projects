@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title> Key Value </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+  </head>
+
+  <body>
+    <div id="modifier-keys-container">
+      <div id="modifier-state">
+        <p> Modifier State: </p>
+        <div>
+          <div id="state-false"> FALSE </div>
+          <div id="state-true"> TRUE </div>
+        </div>
+      </div>
+      <div id="modifier-keys">
+        <div id="alt-key" class="modifier-key-pressed"> Alt </div>
+        <div id="control-key" class="modifier-key-pressed"> Ctrl </div>
+        <div id="meta-key" class="modifier-key-pressed"> Meta </div>
+        <div id="shift-key" class="modifier-key-pressed"> Shift </div>
+      </div>
+    </div>
+    <div id="key-value-container">
+      <div id="key-container">
+        <span id="key-text"> a </span>
+      </div>
+      <div id="binary-container">
+        <span id="binary-text"> 01100001 </span>
+        <button id="copy-button">
+          <span id="copy-icon" class="material-symbols-outlined" onclick="copyBinary()"> content_copy </span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
